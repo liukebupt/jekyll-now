@@ -1,10 +1,18 @@
 ---
 layout: post
-title: You're up and running!
+title: Using LAPACK for C in LINUX
 ---
+## LAPACK
+Instruction for using LAPACK in c on linux
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+### Installation
+* Download latest version from http://www.netlib.org/lapack/.
+* Uncompress tar file.
+* `$cd lapack-*/`
+* `$cmake ./`
+### Test
+* Get test program from http://www.netlib.org/lapack/lapacke.html.
+* Compile with `gcc test_lapack.c -L lib/ -llapacke -llapack -lrefblas -lgfortran -lm -I include/ -o test_lapack` 
+      
+### Documentation
+* http://www.netlib.org/lapack/explore-html/index.html.
