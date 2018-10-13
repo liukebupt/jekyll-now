@@ -36,6 +36,17 @@ footer-links:
 # You can find your shortname on the Settings page of your Disqus account
 disqus:
 
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: f55ce4a8d1ce515038db                            #生成的clientID
+  clientSecret: 4a81fe274e37a3edbbc6dd7624e47ee80eec616a    #生成的clientSecret
+  repo: liukebupt.github.io/    #仓库名称
+  owner: liukebupt    #github用户名
+  admin: liukebupt
+distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-127417846-1
 # Google Analytics
