@@ -8,6 +8,10 @@ Imagine that you are facing a high wall that stretches infinitely in both direct
 
 1. Show an algorithm that enables you to find the door by walking at most $O(n)$ steps in the worst case, where $n$ is the number of steps that you would have taken if you knew where the door is and walked directly to it (note that your algorithm does **not** know the value of $n$ in advance)
 
+2. What is the constant multiple in the worst-case analysis for your algorithm?
+
+3. Observe that if you knew $n$, you could trivially solve the problem in $3n$ steps in the worst case (since you do not know the direction of the door); an interesting question (beyond the scope of this problem) is: what the minimum constant $c>3$ that can be achieved by a linear-time algorithm (in the worst case)?
+
 ### Installation
 * Install BLAS
      > * Download latest version from http://www.netlib.org/blas/.  
